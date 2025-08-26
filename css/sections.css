@@ -4,7 +4,7 @@ section {
 }
 
 .section-about {
-  background-image: url("../img/bg\ section\ about.png");
+  background-image: url("../img//61-background-light.webp");
   background-position: center;
   background-size: cover;
 }
@@ -15,6 +15,9 @@ section {
 
 .section-faq {
   padding: 0;
+  background-image: url("../img//61-background-light.webp");
+  background-position: center;
+  background-size: cover;
 }
 
 .section-scroll-margin-top {
