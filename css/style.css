@@ -1,0 +1,44 @@
+/* ----- Variables ----- */
+
+:root {
+  --color-primary: #7a4723;
+  --color-primary-light: #b09763;
+  --color-secondary: #088f8f;
+  --color-secondary-light: #31b8b8;
+  --color-secondary-ultra-light: #5096ff;
+  --color-dark-grey: #333333;
+  --color-light-grey: #3f3f3f;
+  --color-ultra-light-grey: rgb(138, 138, 138);
+  --font-heading-primary: "Great Vibes";
+  --font-heading-secondary: "Raleway";
+  --font-buttons: "Raleway";
+  --font-body: "Mulish";
+}
+
+/* ----- Global CSS ----- */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 55%;
+  font-family: var(--font-body), sans-serif;
+  overflow-x: hidden;
+  cursor: pointer;
+  user-select: none;
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}

@@ -1,0 +1,57 @@
+section {
+  padding: 8rem 0;
+  scroll-margin-top: 10rem;
+}
+
+.section-about {
+  background-image: url("../img/bg\ section\ about.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.section-services {
+  padding: 0;
+}
+
+.section-faq {
+  padding: 0;
+}
+
+.section-scroll-margin-top {
+  scroll-margin-top: 16rem !important;
+}
+
+.container {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.cantainer-prices {
+  background-image: url("../img/bg\ section\ faq.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.section-reviews {
+  background-image: url("../img/bg\ section\ faq.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.section-contact {
+  padding: 0;
+}
+
+.bg-prices {
+  background-image: url("../img/21714921_original.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.subsection {
+  padding: 0;
+}
+
+footer {
+  background-color: var(--color-primary);
+}

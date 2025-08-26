@@ -1,0 +1,136 @@
+/* ----- TYPOGRAPHY ----- */
+
+/* >>> H1 <<< */
+
+h1 {
+  font-family: var(--font-heading-secondary), sans-serif;
+  font-size: 5rem;
+  font-weight: 200;
+  animation: showH1 1000ms;
+  letter-spacing: -1px;
+  line-height: 6rem;
+}
+
+.h1-span1 {
+  font-weight: 400;
+}
+
+.h1-span2 {
+  font-size: 3rem;
+  display: block;
+  line-height: 3rem;
+  font-weight: 500;
+  margin-top: 15px;
+  font-family: var(--font-heading-secondary);
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 7rem;
+    line-height: 7rem;
+  }
+
+  .h1-span2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+
+/* >>> H1 END <<< */
+
+/* >>> H2 <<< */
+
+h2 {
+  font-family: var(--font-heading-primary), sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  width: fit-content;
+  text-align: center;
+  line-height: 4rem;
+  text-transform: lowercase;
+}
+
+h2 span {
+  font-family: var(--font-heading-secondary), sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  display: block;
+  text-transform: uppercase;
+  line-height: 3rem;
+}
+
+.h2-whyus {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.h2-subsection {
+  font-size: 5rem;
+  text-transform: none;
+  font-family: var(--font-heading-primary);
+}
+
+@media screen and (min-width: 992px) {
+  h2 span {
+    font-size: 3.2rem;
+  }
+  .h2-subsection {
+    font-size: 4.6rem;
+    text-transform: none;
+    font-family: var(--font-heading-primary);
+  }
+}
+
+/* >>> H2 END <<< */
+
+/* >>> H3 <<< */
+
+h3 {
+  font-family: var(--font-heading-secondary), sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.h3-about {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.h3-about span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.h3-card-services {
+  font-weight: 700;
+  font-size: 22px !important;
+}
+
+/* >>> H3 END<<< */
+
+/* >>> H3 <<< */
+
+h4 {
+  font-family: var(--font-heading-primary), sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* >>> H3 END<<< */
+
+/* >>> P <<< */
+
+p {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* >>> P END <<< */
+
+/* ----- TYPOGRAPHY END----- */
