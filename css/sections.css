@@ -57,4 +57,7 @@ section {
 
 footer {
   background-color: var(--color-primary);
+  background-image: url("../img//61-background-light.webp");
+  background-position: center;
+  background-size: cover;
 }
